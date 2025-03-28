@@ -1,0 +1,20 @@
+{
+   "ARCH" : "x86_64",
+   "BACKEND" : "qemu",
+   "CASEDIR" : "/home/userr/Acads/end-to-end-testing/os-autoinst-distri-example-kde-linux",
+   "QEMU_VIDEO_DEVICE" : "virtio-vga",
+   "HDD_1" : "kde.raw",
+   "UEFI_PFLASH_CODE" : "/home/userr/Acads/end-to-end-testing/OVMF_CODE.4m.fd",
+   "UEFI_PFLASH_VARS" : "/home/userr/Acads/end-to-end-testing/OVMF_VARS.4m.fd",
+   "LOG_LEVEL" : "debug",
+   "MACHINE" : "qemu_x86_64",
+   "NEEDLES_DIR" : "/home/userr/Acads/end-to-end-testing/os-autoinst-distri-example-kde-linux/needles",
+   "PART_TABLE_TYPE" : "gpt",
+   "QEMUCPU" : "host",
+   "QEMUCPUS" : "2",
+   "QEMURAM" : "2560",
+   "UEFI" : "1",
+   "DISTRI" : "example",
+   "FLAVOR" : "DVD",
+   "VERSION" : "0"
+}

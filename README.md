@@ -17,6 +17,10 @@ as no needles are present. Creating the needles is by intention left to new
 users as a learning exercise by running the test distribution within openQA
 and using the openQA internal needle editor to create a new needle.
 
+cp /home/userr/Acads/GSOC/os-autoinst-distri-example-kde-linux/hdd/kde-linux_202503220255.raw ./
+
+openqa-cli schedule --monitor --param-file SCENARIO_DEFINITIONS_YAML=scenario-definitions.yaml $(jq -jr 'keys[] as $k | "\($k)=\(.[$k])\n"'  < vars.json)
+
 ## Communication
 
 If you have questions, visit us on IRC in
